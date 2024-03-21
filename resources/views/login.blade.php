@@ -92,7 +92,7 @@
                                     showCancelButton: false,
                                     showConfirmButton: false
                                 }).then(function (params) {
-                                    window.location.href = "{{ route('home') }}"
+                                    window.location.href = "{{ route('dashboard.index') }}"
                                 })
                             } else {
                                 console.log(response.success)
